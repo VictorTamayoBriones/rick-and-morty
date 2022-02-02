@@ -1,5 +1,10 @@
+import { Navbar } from "../../components/Navbar"
+
 export const Characters = () =>{
     return(
-        <h2>Aqui van las tarhetas d elos personajes</h2>
+        <>
+            <Navbar/>
+            <h2>Aqui van las tarhetas d elos personajes</h2>
+        </>
     )
 }

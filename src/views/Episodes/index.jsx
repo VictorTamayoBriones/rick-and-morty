@@ -1,5 +1,10 @@
+import { Navbar } from "../../components/Navbar"
+
 export const Episodes = () =>{
     return(
-        <h2>Aqui van los episodios</h2>
+        <>
+            <Navbar/>
+            <h2>Aqui van los episodios</h2>
+        </>
     )
 }
