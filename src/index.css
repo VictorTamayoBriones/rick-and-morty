@@ -13,3 +13,7 @@ body{
 h1{
   font-family: 'Bangers', cursive;
 }
+
+.active{
+  color: #a1f9ac;
+}

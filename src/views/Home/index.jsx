@@ -1,10 +1,11 @@
 import { Navbar } from '../../components/Navbar'
+import { MainTitle } from '../../components/Titles'
 
 export const Home = () =>{
     return(
         <>
             <Navbar/>
-            <h1>Rick and Morty App</h1>
+            <MainTitle>Rick and Morty App</MainTitle>
         </>
     )
 }

@@ -10,5 +10,4 @@ export const theme = {
     Gray2: '#333',
     white: '#f4f4f4',
     Yellow300: '#fcd57a',
-    Yellow400: '#f9c258'
 }
