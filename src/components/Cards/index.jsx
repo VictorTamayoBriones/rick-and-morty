@@ -13,6 +13,14 @@ export const Card = styled.div`
         transform: translate3D(3px, -3px, 0px);
         box-shadow: 0px 0px 9px ${ theme.Green200 };
     }
+
+    @media (max-width: 1000px){
+        width: max-content;
+        display: block !important;
+        img{
+            width: 100%;
+        }
+    }
 `;
 
 export const CardBody = styled.div`

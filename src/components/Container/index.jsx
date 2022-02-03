@@ -24,4 +24,8 @@ export const CharactersContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+
+    @media (max-width: 800px){
+        grid-template-columns: 1fr;
+    }
 `;
