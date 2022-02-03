@@ -18,6 +18,7 @@ export const Nav = styled.nav`
         gap: 20px;
         a{
             text-decoration: none;
+            font-size: 18px;
             &:hover{
                 color: ${ theme.Yellow300 }
             }
@@ -31,6 +32,15 @@ export const Nav = styled.nav`
         border-radius: 50%;
         &:hover{
             border: solid 2px ${ theme.Green700 };
+        }
+    }
+
+    @media (max-width: 450px){
+        img{
+            display: none;
+        }
+        ul{
+            justify-content: center;
         }
     }
 `;

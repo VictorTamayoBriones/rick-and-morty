@@ -7,7 +7,12 @@ export const MainContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     img{
-        width: 40%;
+        width: 50%;
         opacity: .8;
+    }
+
+    @media (max-width: 650px){
+        flex-wrap: wrap;
+        justify-content: center;
     }
 `;
