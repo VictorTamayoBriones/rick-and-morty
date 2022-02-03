@@ -7,8 +7,8 @@ export const MainContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     img{
-        width: 50%;
-        opacity: .8;
+        width: 40%;
+        opacity: .75;
     }
 
     @media (max-width: 650px){
