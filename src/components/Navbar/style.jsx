@@ -3,6 +3,8 @@ import { theme } from '../../theme';
 
 export const Nav = styled.nav`
     width: 100vw;
+    height: 60px;
+    max-height: 60px;
     background: ${ theme.Gray2 };
     padding: 8px 12px;
     display: flex;
@@ -22,8 +24,13 @@ export const Nav = styled.nav`
         }
     }
     img{
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
         cursor: pointer;
+        border: solid 2px transparent;
+        border-radius: 50%;
+        &:hover{
+            border: solid 2px ${ theme.Green700 };
+        }
     }
 `;
