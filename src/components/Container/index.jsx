@@ -16,3 +16,12 @@ export const MainContainer = styled.div`
         justify-content: center;
     }
 `;
+
+export const CharactersContainer = styled.div`
+    width: 100%;
+    padding: 40px 10px;
+    gap: 40px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+`;
