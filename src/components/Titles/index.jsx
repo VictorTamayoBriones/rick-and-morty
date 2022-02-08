@@ -8,7 +8,7 @@ export const MainTitle = styled.h1`
     word-spacing: 30px;
     display: inline-block;
     transform: translateX(50px);
-    background: -webkit-linear-gradient(45deg, #077457 -20%, #fcd57a 90%);
+    background: -webkit-linear-gradient(45deg, #50ad04 25%, #fffb02 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 

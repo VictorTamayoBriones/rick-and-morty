@@ -14,6 +14,29 @@ export const Card = styled.div`
         box-shadow: 0px 0px 9px ${ theme.Green200 };
     }
 
+    span{
+        color: ${ theme.Yellow300 };
+    }
+
+    img{
+        width: 50%;
+    }
+
+    .about{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .status-Alive{
+            color: ${ theme.Green700 };
+        }
+        .status-Dead{
+            color: red;
+        }
+        .status-unknown{
+            color: ${ theme.Blue400 };
+        }
+    }
+
     @media (max-width: 1000px){
         width: max-content;
         display: block !important;
