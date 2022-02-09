@@ -33,3 +33,15 @@ export const CharactersContainer = styled.div`
         grid-template-columns: 1fr;
     }
 `;
+
+export const CharacterContainer = styled.div`
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:nth-child(1){
+        width: 80%;
+        margin: auto;
+    }
+`;

@@ -12,7 +12,6 @@ export  const useGetCharacters = ()=>{
 
     useEffect(()=>{
         getCharacter();
-        console.log(characters);
     }, [])
 
 

@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import { Card, CardBody } from "../../components/Cards";
 import { CharactersContainer } from "../../components/Container";
 import { Navbar } from "../../components/Navbar"
@@ -8,7 +9,12 @@ import { useGetCharacters } from "../../hooks/useGetCharacters"
 export const Characters = () =>{
 
     const characters = useGetCharacters();
-    
+    const navidate = useNavigate();
+
+    const handleClick=(id)=>{
+        navidate(`/character${id}`)
+    }
+
     return(
         <>
             <Navbar/>
@@ -17,7 +23,7 @@ export const Characters = () =>{
                 {
                     characters.results?.map(({id, image, name, status, species})=>{
                         return(
-                            <Card key={ id } flex >
+                            <Card key={ id } flex  onClick={()=>handleClick(id)} >
                                 <img src={ image } alt={ name } title={ name } />
                                 <CardBody>
                                     <h3><span>Name: </span>{ name }</h3>
