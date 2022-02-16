@@ -21,9 +21,9 @@ export const Characther = () =>{
                                 <p><span>Origin: </span>{origin != undefined ? origin.name : 'unknown'}</p>
                                 <p><span>Location: </span>{location != undefined ? location.name : 'unknown'}</p>
                                 <div className="about">
-                                    <p className={`status-${status}`} >{status}</p>
-                                    <p>{species}</p>
-                                    <p>{gender}</p>
+                                    <p className={`status-${status}`} >Status: {status}</p>
+                                    <p>Specie: {species}</p>
+                                    <p>Gender: {gender}</p>
                                 </div>
                             </CardBody>
                         </Card>
