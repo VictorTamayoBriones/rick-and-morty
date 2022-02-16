@@ -4,7 +4,7 @@ import { SearchBar } from './style';
 export const Search = () =>{
     return(
         <SearchBar>
-            <img src={ SearchIcon } alt="" />
+            {/* <img src={ SearchIcon } alt="" /> */}
             <input type="text" placeholder='Search Something...' />
         </SearchBar>
     );
