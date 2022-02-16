@@ -18,8 +18,8 @@ export const Characther = () =>{
                             <img src={image} alt={name} />
                             <CardBody>
                                 <h3><span>Name: </span>{name}</h3>
-                                <p><span>Origin: </span>{origin != undefined ? origin.name : 'unknown'}</p>
-                                <p><span>Location: </span>{location != undefined ? location.name : 'unknown'}</p>
+                                <p><span>Origin: </span>{origin !== undefined ? origin.name : 'unknown'}</p>
+                                <p><span>Location: </span>{location !== undefined ? location.name : 'unknown'}</p>
                                 <div className="about">
                                     <p className={`status-${status}`} >Status: {status}</p>
                                     <p>Specie: {species}</p>
